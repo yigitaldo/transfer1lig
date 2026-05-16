@@ -1,0 +1,2 @@
+me = client.get_me()
+print("Bağlı hesap:", me.data.username)

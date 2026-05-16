@@ -74,3 +74,7 @@ def main():
     save_data()
 
 main()
+print("API KEY var mı:", "X_API_KEY" in os.environ)
+print("API SECRET var mı:", "X_API_SECRET" in os.environ)
+print("ACCESS TOKEN var mı:", "X_ACCESS_TOKEN" in os.environ)
+print("ACCESS SECRET var mı:", "X_ACCESS_SECRET" in os.environ)
